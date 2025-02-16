@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "474568e4-7e75-4a15-90de-8efac0fed052",
+		"_postman_id": "2cbb3443-84a5-4f81-9678-d6a60b6f7dc2",
 		"name": "auth-demo",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "32326904"
+		"_exporter_id": "38057766"
 	},
 	"item": [
 		{
@@ -24,7 +24,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/v1/users/email/login",
+							"raw": "http://localhost:5000/api/v1/auth/email/login",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -33,7 +33,7 @@
 							"path": [
 								"api",
 								"v1",
-								"users",
+								"auth",
 								"email",
 								"login"
 							]
@@ -48,7 +48,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"mobile\": \"7284080686\",\n    \"password\": \"123456\"\n}",
+							"raw": "{\n    \"mobile\": \"9737825882\",\n    \"password\": \"123456\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -56,7 +56,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/v1/users/mobile/login",
+							"raw": "http://localhost:5000/api/v1/auth/mobile/login",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -65,7 +65,7 @@
 							"path": [
 								"api",
 								"v1",
-								"users",
+								"auth",
 								"mobile",
 								"login"
 							]
@@ -108,7 +108,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"firstName\": \"Hari\",\n    \"lastName\": \"Malam\",\n    \"email\": \"hari@gmail.com\",\n    \"mobile\": \"7284080686\",\n    \"password\": \"123456\"\n}",
+							"raw": "{\n    \"firstName\": \"Rutvik\",\n    \"lastName\": \"Malaviya\",\n    \"email\": \"rutvik@gmail.com\",\n    \"mobile\": \"9737825882\",\n    \"password\": \"123456\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -116,7 +116,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/v1/users/signup",
+							"raw": "http://localhost:5000/api/v1/auth/signup",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -125,7 +125,7 @@
 							"path": [
 								"api",
 								"v1",
-								"users",
+								"auth",
 								"signup"
 							]
 						}
