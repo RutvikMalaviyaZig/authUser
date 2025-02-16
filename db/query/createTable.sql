@@ -1,4 +1,4 @@
--- Active: 1737032321063@@127.0.0.1@5433@auth_test
+
 CREATE TABLE "User" (
     "id" VARCHAR(255) PRIMARY KEY,
     "firstName" VARCHAR(255),
